@@ -19,20 +19,24 @@ section{
 
 /* header */
 
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBy1ZyE0q7ujSE1FYNYLh0kd2I1bjbHhC02w&usqp=CAU');
+    
+}
+
 .header{
-    /* background-color: #808080; */
-    background-image: linear-gradient(to right, #452a00, #4b2d01, #513101, #573401, #5d3801);    
+    background-color: #808080;
     position: fixed;
     top: 0; left: 0; right: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 5%;
-    z-index: 5;
+    padding: 2rem 9%;
+    z-index: 2;
 }
 
 .header .logo img{
-  height: 10rem;
+  height: 6rem;
 }
 
 .header .navbar #close{
@@ -46,8 +50,8 @@ section{
 }
 
 .header .navbar a{
-  font-size: 3rem;
-  margin-right: 3rem;
+  font-size: 2rem;
+  margin-right: 2rem;
   color: #fff;
 }
 
@@ -187,7 +191,7 @@ section{
   }
 
   .home .content .description{
-    font-size: 4rem;
+    font-size: 1.6rem;
   }
 
 }
